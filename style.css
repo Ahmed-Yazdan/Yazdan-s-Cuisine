@@ -1,6 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-image:url(images/bg2.png);
+    margin-bottom: 0;
 }
 .flex{
     display: flex;
@@ -37,30 +38,72 @@ body{
     margin-top:20px;
     display:inline-block;
 }
-
 .sec-3{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left:25%;
+    width: 50%;
+    text-align: center;
+}
+/* .sec-3 h1,p{
+    text-align: center;
+} */
+
+
+
+.sec-4{
     width: 100%;
 }
 
-.sec-3-cards{
-    width: 30%;
-    /* padding-right: 5%;
-    padding-left: 5%; */
-    margin-right: 2.5%;
-    margin-left: 2.5%;
-    background-color: whitesmoke;
+.sec-4-cards{
+    width:18%;
+    padding-right:2.5%;
+    padding-left:2.5%;
+    margin-right: 5%;
+    margin-left: 5%;
     border-left: 7px solid;
     border-image: linear-gradient(cadetblue,cyan);
     border-image-slice:1;
+    box-shadow: 10px 10px 30px teal;
 
 }
 
 .image-sizing{
-    width: 300px;
+    width: 250px;
     height: 168px;
 }
 
 
 .hover:hover{
-    box-shadow: 10px 10px 30px teal;
+    background-color: white;
+}
+
+.sec-5{
+    display: flex;
+    margin-top:100px;
+    background-color: whitesmoke;
+    width:90%;
+    margin-left:5%;
+    border-radius: 10px;
+}
+
+.sec-5 div{
+    display: inline-block;
+    padding-right:2.5%;
+    padding-left:2.5%;
+    margin-right:5%;
+    margin-left:5%;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    background-color: black;
+    height:175px;
+}
+
+.footer p,h1{
+    padding-top:2.5%;
 }
